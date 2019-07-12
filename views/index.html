@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>File Metadata</title>
+     <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+
+      <header>
+       <h1>
+         File Metadata Microservice
+       </h1>
+     </header>
+      <div class="body">
+        <div class="create-id">
+          <div class="header">
+            Upload a file
+          </div>
+          <div class="form">
+            <form method="POST" action="/api/fileanalyse" id="add-user" enctype="multipart/form-data">
+              <input type="file" name="file" required placeholder="Enter username*">
+              <button type="submit">
+                Upload
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+     <footer>
+       by <a href="twitter.com/devenkshp" targer="_blank">devenkshp</a>
+     </footer>
+   </body>
+
+
+</html>
